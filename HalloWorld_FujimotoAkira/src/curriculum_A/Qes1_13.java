@@ -3,15 +3,36 @@ package curriculum_A;
 public class Qes1_13 {
 	public static void main(String[] args) {
 		/*1,2,3*/
-		byte b = 10;
-		short s = 100;
-		int i = 1000;
-		long l = 10000;
-		float f = 9.5f;
-		double d = 10.5;
-		char c = 'a';
-		String str = "ハロー";
-		boolean flag = true;
+	    byte b;
+		short s;
+		int i;
+		long l;
+		float f;
+		double d;
+		char c;
+		String str;
+		boolean flag;
+		
+		b = 0;
+		s = 0;
+		i = 0;
+		l = 0L;
+		f = 0.0f;
+		d = 0.0;
+		c = '\u0000';
+		str = null;
+	    flag = false;
+		
+		b = 10;
+		s = 100;
+		i = 1000;
+		l = 10000;
+		f = 9.5f;
+		d = 10.5;
+		c = 'a';
+		str = "ハロー";
+		flag = true;
+		
 		/*4*/
 		System.out.println(b+s+i+l);
 		System.out.println(b+b);
@@ -26,12 +47,23 @@ public class Qes1_13 {
 		int num1=23;
 		System.out.println("ハローJAVA"+(num+num1));
 		
+		System.out.println();
+		
 		/*6*/
 		String name = "山田太郎";
 		int age = 18;
 		double height = 170.5;
 		double weight = 62.2;
 		String food = "寿司";
+		
+		System.out.println("「初めまして"+name+"です」");
+		System.out.println("「年齢は"+age+"です」");
+		System.out.println("「身長は"+height+"です」");
+		System.out.println("「体重は"+weight+"です」");
+		System.out.println("「好きな食べ物は"+food+"です」");
+		System.out.println("「BMIは"+weight / ((height / 100)*(height / 100))+"です」");
+		
+		System.out.println();
 		
 		/*8*/
 		name = "鈴木一郎";
