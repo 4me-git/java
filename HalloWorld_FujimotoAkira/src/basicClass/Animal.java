@@ -16,7 +16,7 @@ public class Animal {
 		
 		// 現在の日時を「yyyy-MM-dd H:m:s」形式で変数に代入して、コンソールに出力してください
 		LocalDateTime now = LocalDateTime.now(); //日時を取得
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyy-MM-dd H:m:s"); //フォーマット指定
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd H:m:s"); //フォーマット指定
 		String formattedNow = now.format(formatter); //文字列に変換 format(formatter)で指定
 		System.out.println(formattedNow);
 	}

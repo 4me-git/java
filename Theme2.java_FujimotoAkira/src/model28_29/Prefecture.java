@@ -15,7 +15,7 @@ public class Prefecture {
 	
 	//ゲッター(外から読み取る時に使う)
 	public String getName() {return name;}
-	public String getCapitale() {return capital;}
+	public String getCapital() {return capital;}
 	public double getArea() {return area;}
 	
 	//出力用メゾット
