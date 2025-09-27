@@ -1,10 +1,10 @@
 package action;
 
-import plan.plan_01;
+import plan.Plan_01;
 
-public class action_01 {
+public class Action_01 {
 	public static void main(String[] args) {
-		plan_01 printer = new plan_01();
+		Plan_01 printer = new Plan_01();
 		
 		printer.printAll();
 	}

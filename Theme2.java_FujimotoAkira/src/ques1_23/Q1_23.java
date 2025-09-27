@@ -36,7 +36,7 @@ public class Q1_23 {
 		//setterを使ってフィールドに値を入れる
 		lion.setName("ライオン"); //lionに対してsetName呼び出す
 		lion.setWeight("2.1m");
-		lion.setSpeed("80km/h");
+		lion.setSpeed("80km/h");//
 		
 		//getterを使って値取り出し、出力
 		System.out.println("動物名：" + lion.getName());

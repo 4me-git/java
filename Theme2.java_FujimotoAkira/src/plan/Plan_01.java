@@ -3,18 +3,18 @@ package plan;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class plan_01 {
+public class Plan_01 {
 	public String Hello; //フィールをpublicにして外からアクセス可能(アクセス修飾子)
 	public String sushiComment;
 	public String sushiinfo;
 	public String now;
 
-	public plan_01() {
+	public Plan_01() {
 		this.Hello = "こんにちは！ここは日本です！";
 		this.sushiComment = "この寿司はうまい";
 		this.sushiinfo = "寿司は和食です";
 		this.now = LocalDateTime.now()
-			.format(DateTimeFormatter.ofPattern("yyy-MM-dd HH:mm:ss"));
+			.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 	}
 	
 	public void printAll() {

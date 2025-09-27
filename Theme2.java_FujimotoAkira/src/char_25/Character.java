@@ -1,6 +1,6 @@
 package char_25;
 
-public class character {
+public class Character {
 	private String name;
 	private int hp;
 	private int mp;
@@ -9,7 +9,7 @@ public class character {
 	private int defense;
 	
 	//コンストラクタ
-	public character(String name) {
+	public Character(String name) {
 		this.name = name;
 	}
 	

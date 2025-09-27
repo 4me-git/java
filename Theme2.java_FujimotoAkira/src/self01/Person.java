@@ -28,7 +28,7 @@ public class Person {
 	public void print() {
 		System.out.println("名前は" + this.name + "です");
 		System.out.println("年は" + this.age + "です");
-		
+	// Math.floorで小数点以下を切り捨て
 		double bmiValue = Math.floor(this.bmi());
 		System.out.println(String.format("BMIは %.1f" , bmiValue));
 	}

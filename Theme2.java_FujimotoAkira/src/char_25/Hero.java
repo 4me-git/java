@@ -2,7 +2,7 @@ package char_25;
 
 import java.util.Random;
 
-public class Hero extends character { //extends characterでcharacterを継承(サブクラス)
+public class Hero extends Character { //extends characterでcharacterを継承(サブクラス)
 	private Random rand = new Random();
 	
 	//

@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class Animal {
 	
 	public static void main(String[] args) {
-		// Q1：Dogクラスを呼び出して変数に代入し、動物の名前をコンソールに出力してください。
+		// Q1：Dogクラスを呼び出して変数に代入し、動物の名前をコンソールに出力してください
 		Dog dog1 = new Dog(); //new Dog();でDogクラスのインスタンスを作成
 		System.out.println(dog1.name); //nameフィールドを参照
 		
